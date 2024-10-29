@@ -1,8 +1,21 @@
-#navBar {
-    width: 100%;
-    display: inline-flex;
+#header {
+    display:flex; 
     justify-content: center;
     align-items: center;
-    gap: 12px;
+}
+
+
+#logo{
+    position: absolute;
+    left: 1rem;
+}
+
+#nav-bar > ul {
+    display:flex;
+    gap: 1rem;
+    list-style: none;
+}
+
+.nav-link {
     padding: 1rem;
 }
