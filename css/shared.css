@@ -1,17 +1,5 @@
-#header {
-    display:flex; 
-    justify-content: center;
-    align-items: center;
-}
-
-#logo{
-    position: absolute;
-    left: 1rem;
-}
-
-#nav-bar > ul {
-    display:flex;
-    gap: 1rem;
+#menu {
+    display: inline-flex;
     list-style: none;
 }
 
