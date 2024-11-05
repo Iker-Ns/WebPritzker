@@ -1,0 +1,11 @@
+.main-content {
+    padding: 1rem;
+}
+
+.article {
+    display: inline-flex;
+}
+
+.article-content {
+    width: 60%;
+}
