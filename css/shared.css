@@ -18,8 +18,11 @@
 }
 
 .big-article {
+    margin-top: 4rem;
     padding: 1rem;
     display: inline-flex;
+    gap: 4rem;
+    text-align: justify;
 }
 
 .big-article > img {
