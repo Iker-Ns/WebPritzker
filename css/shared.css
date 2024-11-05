@@ -4,5 +4,20 @@
 }
 
 .nav-link {
+    text-decoration: none;
     padding: 1rem;
+}
+
+.big-article {
+    padding: 1rem;
+    display: inline-flex;
+}
+
+.big-article > img {
+    max-width: 40%;
+    object-fit: fill;
+}
+
+.big-content {
+    max-width: 60%;
 }
