@@ -100,25 +100,27 @@ nav {
     padding: 3em 4em;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 2rem;
 }
 
 .text-container h2 {
-    font-size: 16px;
+    font-size: 22px;
     font-family: var(--font-title);
     color: #000000;
 }
 
 .text-container p {
-    font-size: 11px;
+    font-size: 14px;
     text-align: justify;
     font-family: var(--font-body);
 }
 
 .text-container a {
     border: #000000 solid 1px;
-    width: 100px;
-    font-size: 12px;
+    padding: 1rem;
+    max-width: 120px;
+    font-size: 14px;
     text-align: center;
     border-radius: 3%;
     background-color: #000000;
@@ -141,6 +143,7 @@ nav {
     height: 100%;
     background-color: aqua;
     object-fit: cover;
+    transition: all .5s ease;
 }
 
 .overlay {
@@ -152,7 +155,7 @@ nav {
     height: 100%;
     width: 100%;
     opacity: 0;
-    transition: .5s ease;
+    transition: all .5s ease;
 }
 
 .img-container:hover img {
@@ -167,7 +170,7 @@ nav {
     color: white;
     font-size: 14px;
     position: absolute;
-    padding: 5px;
+    padding: 1rem;
     top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
@@ -181,7 +184,7 @@ nav {
 footer {
     box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.1);
     width: 100%;
-    height: 40vh;
+    padding: 1rem;
     max-width: 100%;
     margin: 0 auto;
     display: flex;
@@ -206,17 +209,18 @@ footer {
 .footer-right {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-content: space-around;
+    gap: 2rem;
     height: 100%;
     width: 50%;
-    padding: 2em;
-
+    padding: 1rem;
 }
 
 .footer-right .links {
     display: grid;
     grid-template-columns: repeat(3, 33%);
+    row-gap: 2rem;
     list-style: none;
     justify-content: center;
 
@@ -245,7 +249,7 @@ footer {
 .social-icons {
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 2rem;
     align-self: center;
 }
 
