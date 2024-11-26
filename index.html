@@ -1,61 +1,154 @@
 <!DOCTYPE html>
-<html lang="e">
+<html lang="es">
 
 <head>
+    <!-- METADATA -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página principal</title>
-    <link rel="stylesheet" href="css/shared.css">
+    <meta name="description"
+        content="The official website of The Pritzker Architecture Prize, celebrating architectural excellence.">
+    <title>The Pritzker Architecture Prize</title>
+    <link rel="icon" type="image/x-icon" href="images/icons/favicon.ico">
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Italiana&family=Poppins:wght@200;400;600&display=swap"
+        rel="stylesheet">
+
+    <!-- STYLES -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/home.css">
+
+    <!-- PRELOAD IMAGE -->
+    <link rel="preload" href="images/home/hero.jpg" as="image">
 </head>
 
 <body>
-    <nav id="nav-bar">
-        <ul id="menu">
-            <li>
-                <a class="nav-link" href="index.html">Premios Pritzker</a>
-            </li>
-            <div>
-                <li>
-                    <a class="nav-link" href="nominados-globales.html">Nominados globales</a>
-                </li>
-                <li>
-                    <a class="nav-link" href="nominados-nacionales.html">Nominados nacionales</a>
-                </li>
-                <li>
-                    <a class="nav-link" href="galeria-de-fotos.html">Galeria de fotos</a>
-                </li>
-                <li>
-                    <a class="nav-link" href="formulario.html">Formulario</a>
-                </li>
-                <li>
-                    <a class="nav-link" href="sobre-nosotros.html">Sobre nosotros</a>
-                </li>
+    <!-- HEADER -->
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="home.html" aria-label="Página principal">The Pritzker Architecture Prize</a>
             </div>
-        </ul>
-    </nav>
+            <ul class="nav-menu" aria-label="Menú principal">
+                <li><a href="home.html">Inicio</a></li>
+                <li><a href="about.html">Acerca de</a></li>
+                <li><a href="laureates.html">Galardonados</a></li>
+                <li><a href="selection_process.html">Proceso de Selección</a></li>
+                <li><a href="gallery.html">Galería</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="contact.html">Contacto</a></li>
+            </ul>
+        </nav>
+        <section class="hero">
+            <h1>Premios Pritzker</br>de Arquitectura</h1>
+            <p class="subtitle">Celebrando la innovación y el legado arquitectónico</p>
+        </section>
+    </header>
 
-    <article class="big-article">
-        <div class="big-content">
-            <h2>¿Que son los premios Pritzker?</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id nisi provident, nostrum fugiat alias modi
-                dolore
-                expedita voluptatum non excepturi dolorem tempore vero quaerat labore saepe harum autem. Culpa, dolorem!
-            </p>
-        </div>
-        <img alt="Img">
-    </article>
+    <!-- MAIN -->
+    <main>
+        <section class="article">
+            <div class="text-container">
+                <h2>«El edificio se ha concebido como una especie de cruce entre una medina arábiga y un ágora griega,
+                    un lugar para reunirse y hablar sobre el arte y la vida en un contexto de completa calma».</h2>
+                <p>Jean Nouvel, el arquitecto a quien se debe el nuevo Louvre -el primero fuera de Francia-, cuyas
+                    puertas se abrieron al público el 11 de noviembre y que usa el nombre de la venerable institución
+                    parisina merced a un contrato por treinta años, con un coste de casi 760 millones de euros.</p>
+                <a href="winners.html" class="button">Leer más</a>
+            </div>
+            <div class="img-container">
+                <img src="images/home/El louvre abu dabi.webp" alt="Edificio moderno con cùpula luminosa junto al agua">
+                <div class="overlay">
+                    <p class="quote">«Quería crear un barrio para el arte, en lugar de un edificio» -Jean Nouvel</p>
+                </div>
+            </div>
+        </section>
+        <section class="article reverse">
+            <div class="text-container">
+                <h2>El Museo Guggenheim Bilbao</h2>
+                <p>Maestro del deconstructivismo, Frank Gehry es uno de los arquitectos vivos más influyentes de la era
+                    moderna.
+                    Su diseño para el Guggenheim Bilbao es quizá su logro más notable, que desempeñó un papel
+                    fundamental
+                    en la mejora de la economía de la ciudad española. "Su obra, a veces controvertida pero siempre
+                    cautivadora,
+                    ha sido descrita como iconoclasta, alborotadora e impermanente, pero el jurado, al conceder este
+                    premio,
+                    elogia este espíritu inquieto que ha hecho de sus edificios una expresión única de la sociedad
+                    contemporánea
+                    y sus valores ambivalentes", declaró el jurado sobre su selección en 1989. </p>
+                <a href="winners.html" class="button">Leer más</a>
+            </div>
+            <div class="img-container">
+                <img src="images/home/museo guggenheim bilbao.webp"
+                    alt="Arquitectura escultòrica de formas curvas y metàlicas">
+                <div class="overlay">
+                    <p class="quote">“La arquitectura debe hablar de su tiempo y su lugar, y a la vez, anhelar la
+                        eternidad.” -Frank Gehry</p>
+                </div>
+            </div>
+        </section>
+        <section class="article">
+            <div class="text-container">
+                <h2>Una fachada sorprendente</h2>
+                <p>La Casa Batlló es una apología de la felicidad, un lienzo de inspiración marina,
+                    un mundo onírico que evoca la natura y la fantasía.
+                    Su fachada es la puerta de entrada a este universo simbólico,
+                    y contemplarla inspira sentimientos que tienen de fondos un continuo diálogo con la luz y el color.
+                    Su espectacularidad no deja nadie indiferente y hace que los transeúntes se paren a mirarla en
+                    cualquier hora del día.</p>
+                <a href="winners.html" class="button">Leer más</a>
+            </div>
+            <div class="img-container">
+                <img src="images/home/la casa batllo.jpg"
+                    alt="Arquitectura orgànica con formas fluidas y detalles coloridos" object-fit="cover">
+                <div class="overlay">
+                    <p class="quote">"Tengo esa calidad de sentir, de ver el espacio porque soy hijo de calderero. El
+                        calderero es un hombre que de una superficie hace un volumen; ve el espacio antes de empezar a
+                        trabajar". -Antoni Gaudì</p>
+                </div>
+            </div>
+        </section>
+    </main>
 
-    <article class="big-article">
-        <div class="big-content">
-            <h2>Historia</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id nisi provident, nostrum fugiat alias modi
-                dolore
-                expedita voluptatum non excepturi dolorem tempore vero quaerat labore saepe harum autem. Culpa, dolorem!
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores velit est pariatur sit alias excepturi,
-                id voluptatum veritatis reiciendis odio numquam aspernatur nihil esse expedita dignissimos facere
-                tempore, eum perspiciatis.</p>
+    <!-- Footer -->
+    <footer>
+        <!-- Left Section -->
+        <div class="footer-left">
+            <div class="logo">
+                <a href="home.html" aria-label="Página principal">The Pritzker Architecture Prize</a>
+            </div>
         </div>
-    </article>
+
+        <!-- Right Section -->
+        <div class="footer-right">
+            <ul class="links">
+                <li><a href="#">ACERCA DE</a></li>
+                <li><a href="#">GALARDONADOS</a></li>
+                <li><a href="#">PROCESO DE SELECCIÓN</a></li>
+                <li><a href="#">GALERÍA</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">CONTACTO</a></li>
+            </ul>
+            <form class="newsletter-form">
+                <label for="email">Suscríbete a nuestro boletín</label>
+                <input type="email" id="email" placeholder="TU EMAIL" required>
+                <button type="submit">SIGN UP</button>
+            </form>
+            <div class="social-icons">
+                <a href="https://www.instagram.com/pritzkerarchitectureprize/"><img class="icon"
+                        src="images/icons/instagram-svgrepo-com.svg" alt="Instagram"></a>
+                <a href="https://x.com/pritzkerprize"><img class="icon"
+                        src="images/icons/twitter-logo-shape-svgrepo-com (1).svg" alt="Twitter"></a>
+                <a href="https://www.facebook.com/PritzkerArchitecturePrize/"><img class="icon"
+                        src="images/icons/facebook.svg" alt="facebook"></a>
+            </div>
+
+        </div>
+    </footer>
+    <script src="js/home.js"></script>
 </body>
 
 </html>
