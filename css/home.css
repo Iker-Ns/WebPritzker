@@ -257,3 +257,7 @@ footer {
     width: 30px;
     height: auto;
 }
+
+#social-media {
+    grid-column: 2 / span 2;
+}
