@@ -35,6 +35,63 @@
         </ul>
     </nav>
 
+    <main>
+        <form class="contact-form">
+            <div>
+                <label for="name">Nombre</label>
+                <input type="text" name="name" id="name">
+
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+            </div>
+
+            <div>
+                <label for="age">Edad</label>
+                <input type="number" name="age" id="age">
+            </div>
+
+            <div>
+                <label for="gender">Genero</label>
+                <select name="gender" id="gender">
+                    <option value="hombre">Hombre</option>
+                    <option value="mujer">Mujer</option>
+                    <option value="otro">Otro</option>
+                </select>
+            </div>
+
+            <!--Tienen que ser 3-->
+            <span>¿Que artículos te han gustado más?</span>
+
+            <div class="form-row">
+                <input type="checkbox" id="galardonados" for="galardonados" checked>
+                <label for="galardonados">Galardonados</label>
+            </div>
+
+            <div class="form-row">
+                <input type="checkbox" id="selección" for="selección">
+                <label for="selección">Procesos de selección</label>
+            </div>
+
+            <!--Tienen que ser 3-->
+            <span>Marca el tema al que quieras suscribirte.</span>
+
+            <div class="form-row">
+                <input type="radio" id="galardonados-radio" name="tema-favorito" value="Galardonados" checked>
+                <label for="galardonados-radio">Galardonados</label>
+            </div>
+
+            <div class="form-row">
+                <input type="radio" id="selección-radio" name="tema-favorito" value="Procesos de selección">
+                <label for="selección-radio">Procesos de selección</label>
+            </div>
+
+            <label for="sugerencias">Sugerencias</label>
+            <textarea id="sugerencias" name="sugerencias" placeholder="Escribe aquí tus sugerencias."></textarea>
+
+            <input type="submit">
+        </form>
+    </main>
+
     <!-- Footer -->
     <footer>
         <!-- Left Section -->
@@ -43,13 +100,6 @@
                 <a href="index.html" aria-label="Página principal">The Pritzker Architecture Prize</a>
             </div>
         </div>
-
-        <main>
-            <form>
-                <label for="shortTexte"></label>
-                <input type="text" id="shortText">
-            </form>
-        </main>
 
         <!-- Right Section -->
         <div class="footer-right">
