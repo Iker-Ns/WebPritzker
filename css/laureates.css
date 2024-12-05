@@ -46,12 +46,14 @@ main div {
 
 .container:hover img {
     filter: brightness(50%);
+    transition: all .5s ease;
 }
 
 .text {
     color: white;
     font-size: 20px;
     position: absolute;
+    padding: 1rem 1rem 1rem 1rem;
     top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
