@@ -1,14 +1,22 @@
 .contact-form {
     display: flex;
     flex-direction: column;
-    max-width: 40%;
+    gap: 12px;
+    max-width: 35%;
     margin: 24px auto 48px auto;
-    padding: 20px;
-    background-color: #f9f9f9;
+    padding: 24px;
     border: 1px solid #ccc;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    font-family: 'Poppins', sans-serif;
+}
+
+.same-line {
+    display: flex;
+    gap: 12px;
+}
+
+.same-line div {
+    flex: 1;
 }
 
 .contact-form label {
@@ -65,3 +73,8 @@
     font-weight: 600;
     color: #555;
 }
+
+input:invalid {
+    background-color: #fff5f5;
+}
+

@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto</title>
+    <title>Encuesta</title>
 
     <!-- FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,7 +14,7 @@
 
     <!-- STYLES -->
     <link rel="stylesheet" href="css/global.css">
-    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/encuesta.css">
 </head>
 
 <body>
@@ -31,41 +31,52 @@
                 <li><a href="selection_process.html">Proceso de Selección</a></li>
                 <li><a href="gallery.html">Galería</a></li>
                 <li><a href="faq.html">FAQ</a></li>
-                <li><a href="contact.html">Contacto</a></li>
+                <li><a href="encuesta.html">Encuesta</a></li>
                 <li><a href="about_us.html">Nosotros</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <form class="contact-form">
-            <div>
-                <label for="name">Nombre</label>
-                <input type="text" name="name" id="name">
+        <form class="contact-form" action="encuesta_success.html">
+            <div class="same-line">
+                <div>
+                    <label for="name">Nombre</label>
+                    <input type="text" name="name" id="name" required>
+                </div>
 
-                <label for="email">Email</label>
-                <input type="email" name="email" id="email">
+                <div>
+                    <label for="age">Edad</label>
+                    <input type="number" name="age" id="age">
+                </div>
             </div>
 
-            <div>
-                <label for="age">Edad</label>
-                <input type="number" name="age" id="age">
-            </div>
+            <div class="same-line">
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" required>
+                </div>
 
-            <div>
-                <label for="gender">Genero</label>
-                <select name="gender" id="gender">
-                    <option value="hombre">Hombre</option>
-                    <option value="mujer">Mujer</option>
-                    <option value="otro">Otro</option>
-                </select>
+                <div>
+                    <label for="gender">Genero</label>
+                    <select name="gender" id="gender">
+                        <option value="hombre">Hombre</option>
+                        <option value="mujer">Mujer</option>
+                        <option value="otro">Otro</option>
+                    </select>
+                </div>
             </div>
 
             <!--Tienen que ser 3-->
             <span>¿Que artículo te ha gustado más?</span>
 
             <div class="form-row">
-                <input type="radio" id="galardonados-radio" name="tema-favorito" value="Galardonados" checked>
+                <input type="radio" id="sobre-radio" name="tema-favorito" value="Sobre nosotros" checked>
+                <label for="sobre-radio">Sobre nosotros</label>
+            </div>
+
+            <div class="form-row">
+                <input type="radio" id="galardonados-radio" name="tema-favorito" value="Galardonados">
                 <label for="galardonados-radio">Galardonados</label>
             </div>
 
@@ -78,7 +89,12 @@
             <span>Marca los tema a los que quieras suscribirte.</span>
 
             <div class="form-row">
-                <input type="checkbox" id="galardonados" for="galardonados" checked>
+                <input type="checkbox" id="sobre" for="sobre" checked>
+                <label for="sobre">Sobre nosotros</label>
+            </div>
+
+            <div class="form-row">
+                <input type="checkbox" id="galardonados" for="galardonados">
                 <label for="galardonados">Galardonados</label>
             </div>
 
@@ -112,7 +128,7 @@
             <li><a href="selection_process.html">Proceso de Selección</a></li>
             <li><a href="gallery.html">Galería</a></li>
             <li><a href="faq.html">FAQ</a></li>
-            <li><a href="contact.html">Contacto</a></li>
+            <li><a href="encuesta.html">Encuesta</a></li>
             <li><a href="about_us.html">Nosotros</a></li>
         </ul>
         <div class="social-icons">

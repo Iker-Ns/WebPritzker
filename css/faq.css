@@ -1,16 +1,15 @@
-main{
+main {
     display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    justify-content: space-between;
-    row-gap: 20px;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem 4rem 3.5rem 4rem;
 }
 
-main div{
-    width: 32%;
-    height: auto;
+.text {
+    text-align: justify;
 }
 
-main div img{
-    object-fit: cover;
+.text-section {
+    display: flex;
+    gap: 4rem;
 }
