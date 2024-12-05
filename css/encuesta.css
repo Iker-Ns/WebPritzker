@@ -5,15 +5,9 @@
     max-width: 35%;
     margin: 24px auto 48px auto;
     padding: 24px;
-    background-color: #f9f9f9;
     border: 1px solid #ccc;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-input:invalid {
-    border: 2px solid red;
-    background-color: #ffe6e6;
 }
 
 .same-line {
@@ -79,3 +73,8 @@ input:invalid {
     font-weight: 600;
     color: #555;
 }
+
+input:invalid {
+    background-color: #fff5f5;
+}
+
