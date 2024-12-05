@@ -1,8 +1,10 @@
 main {
     display: flex;
+    flex-direction: column;
+    gap: 2rem;
     justify-content: center;
     width: 100%;
-    padding: 3rem;
+    padding: 1rem 5rem 4rem 5rem;
 }
 
 main div {
