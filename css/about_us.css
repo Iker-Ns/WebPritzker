@@ -22,6 +22,11 @@ main {
     height: 100px;
     text-align: center;
     border-radius: 100%;
+    object-fit: cover;
+}
+
+#nico-imagen {
+    object-position: 50% 10%;
 }
 
 .card div {
