@@ -50,7 +50,7 @@ main div {
 
 .text {
     color: white;
-    font-size: 20px;
+    font-size: 15px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -58,5 +58,5 @@ main div {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.521);
 }
